@@ -36,7 +36,7 @@ async function* processDbDataGenerator() {
     for(const product of products) {
         const { data: productInfo } = await axios.get(`${PRODUCTS_URL}?productName=${product}`)
         const { data: cartData } = await axios.post(`${CART_URL}`, productInfo)
-        yield cartData
+        yield cartData // retorno do generator
     }
 }
 
