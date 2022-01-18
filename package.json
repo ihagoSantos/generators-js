@@ -1,0 +1,23 @@
+{
+  "name": "generators",
+  "version": "1.0.0",
+  "description": "Example of how to use generators to provide data on-demand on javascript with NodeJS.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihagoSantos/generators-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihagoSantos/generators-js/issues"
+  },
+  "homepage": "https://github.com/ihagoSantos/generators-js#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
